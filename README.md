@@ -433,7 +433,7 @@ manufacturer's database.
 @software{canguard2026,
   title  = {CAN-Guard: machine-learning intrusion detection for
             automotive CAN-bus networks},
-  author = {{i5 Designs}},
+  author = {{Lohit Shanmugam}},
   year   = {2026},
   url    = {https://github.com/yourname/can-guard},
   license = {MIT}
