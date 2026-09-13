@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: >-
+  CAN-Guard: machine-learning intrusion detection for
+  automotive CAN-bus networks
+message: If you use this software, please cite it as below.
+type: software
+authors:
+  - name: i5 Designs
+repository-code: https://github.com/yourname/can-guard
+license: MIT
+version: 1.0.0
+date-released: '2026-09-12'
+keywords:
+  - intrusion detection
+  - automotive security
+  - CAN bus
+  - anomaly detection
+  - autoencoder
+  - operational technology
+abstract: >-
+  CAN-Guard detects attacks on an automotive Controller Area
+  Network by combining message-timing statistics, frame-integrity
+  checks and vehicle-physics consistency. A TensorFlow autoencoder
+  trained only on attack-free traffic establishes a behavioural
+  baseline for unseen attacks, while supervised Scikit-learn and
+  TensorFlow models classify known ones. The repository includes a
+  physics-based vehicle and bus simulator that generates the
+  training traffic, so the whole pipeline reproduces offline with
+  no proprietary data.

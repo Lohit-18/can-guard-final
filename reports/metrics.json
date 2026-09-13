@@ -1,0 +1,108 @@
+{
+  "overall": {
+    "Random Forest (supervised)": {
+      "accuracy": 0.9892793329362716,
+      "precision": 0.9959266802443992,
+      "recall": 0.9349904397705545,
+      "f1": 0.9644970414201184,
+      "roc_auc": 0.9989397756128158,
+      "false_alarm_rate": 0.0007054673721340388
+    },
+    "TF Neural Net (supervised)": {
+      "accuracy": 0.9839189994044074,
+      "precision": 0.9535783365570599,
+      "recall": 0.9426386233269598,
+      "f1": 0.948076923076923,
+      "roc_auc": 0.9856309920044783,
+      "false_alarm_rate": 0.008465608465608466
+    },
+    "TF Autoencoder (unsupervised)": {
+      "accuracy": 0.9749851101846337,
+      "precision": 0.9452332657200812,
+      "recall": 0.8910133843212237,
+      "f1": 0.9173228346456693,
+      "roc_auc": 0.949532779615635,
+      "false_alarm_rate": 0.009523809523809525
+    },
+    "Isolation Forest (unsupervised)": {
+      "accuracy": 0.9449076831447291,
+      "precision": 0.9801136363636364,
+      "recall": 0.6596558317399618,
+      "f1": 0.7885714285714286,
+      "roc_auc": 0.9501208939067448,
+      "false_alarm_rate": 0.0024691358024691358
+    }
+  },
+  "per_attack_recall": {
+    "Random Forest (supervised)": [
+      0.7642857142857142,
+      0.9918032786885246,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "TF Neural Net (supervised)": [
+      0.7857142857142857,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "TF Autoencoder (unsupervised)": [
+      0.5928571428571429,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Isolation Forest (unsupervised)": [
+      0.03571428571428571,
+      0.7295081967213115,
+      0.75,
+      1.0,
+      1.0
+    ]
+  },
+  "attack_families": [
+    "throttle_spoof",
+    "fake_brake",
+    "dos_flood",
+    "fuzzing",
+    "replay"
+  ],
+  "per_threat_model_recall": {
+    "Random Forest (supervised)": [
+      0.9906542056074766,
+      1.0,
+      1.0,
+      0.6024096385542169
+    ],
+    "TF Neural Net (supervised)": [
+      1.0,
+      1.0,
+      1.0,
+      0.6385542168674698
+    ],
+    "TF Autoencoder (unsupervised)": [
+      1.0,
+      1.0,
+      1.0,
+      0.3132530120481928
+    ],
+    "Isolation Forest (unsupervised)": [
+      0.8130841121495327,
+      0.13333333333333333,
+      0.08771929824561403,
+      0.0
+    ]
+  },
+  "threat_models": [
+    "fake_brake/injection",
+    "fake_brake/masquerade",
+    "throttle_spoof/injection",
+    "throttle_spoof/masquerade"
+  ],
+  "multiclass_accuracy": 0.935080405002978,
+  "n_windows": 3358,
+  "n_attack_windows": 523
+}

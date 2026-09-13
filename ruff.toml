@@ -1,0 +1,12 @@
+line-length = 88
+target-version = "py39"
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = [
+  "E741",   # ambiguous variable names: `l` reads fine in a tight numeric loop
+  "B008",   # function call in default argument: not used here, noisy if it appears
+]
+
+[lint.per-file-ignores]
+"tests/*" = ["E501"]
