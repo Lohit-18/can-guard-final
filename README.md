@@ -4,7 +4,6 @@
 
 <br>
 
-[![CI](https://github.com/yourname/can-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/can-guard/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-1c6e46.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%20%E2%80%93%203.13-a87c00.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15%2B-a87c00.svg)](https://www.tensorflow.org/)
